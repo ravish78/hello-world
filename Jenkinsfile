@@ -5,8 +5,8 @@ pipeline {
 
         stage('Run Script') {
             steps {
-                sh 'chmod +x helloworldcode.sh'
-                sh './helloworldcode.sh'
+                sh 'chmod +x helloworld.sh'
+                sh './helloworld.sh'
             }
         }
     }
